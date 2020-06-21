@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        	Carro carro = new Carro();
+        	carro.setCantidadDeLlantas(4);
+        	carro.setColor("Negro");
+        	carro.setTipoFuenteEnergia("Electrico");
+        	
+        System.out.print ("" + carro.getCantidadDeLlantas() + "," + carro.getColor() + "," + carro.getTipoFuenteEnergia());
     }
 }
